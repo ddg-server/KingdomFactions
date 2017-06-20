@@ -16,10 +16,7 @@ Nee, deze code is `as is` maar voel je vrij om een fork te maken en er verder me
 
 Hoe build ik deze plugin?
 --------------------------
-Om deze plugin te builden moet je Maven correct geinstalleerd hebben!
-(https://maven.apache.org/)
-Voordat je de plugin kan builden moet je BuildTools gerund!
-(https://www.spigotmc.org/threads/buildtools-updates-information.42865/)
-Om de plugin te builden type je het volgende commando in een command line
-Op windows kan dit via cmd of via GitBash (https://git-for-windows.github.io/)
-"mvn clean package -U"
+Om deze plugin te builden moet je [Maven](https://maven.apache.org/) correct geinstalleerd hebben!
+Voordat je de plugin kan builden moet je [BuildTools](https://www.spigotmc.org/threads/buildtools-updates-information.42865/) gerund hebben! Om de plugin te builden type je het volgende commando in een command line
+Op windows kan dit via cmd of via [GitBash](https://git-for-windows.github.io/)
+`mvn clean package -U`
