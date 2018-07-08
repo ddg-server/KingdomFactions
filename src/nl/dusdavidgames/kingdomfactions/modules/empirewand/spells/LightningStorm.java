@@ -20,9 +20,8 @@ public class LightningStorm extends Spell{
 
 	@Override
 	public void execute(KingdomFactionsPlayer player) {
-	  player.sendMessage(Messages.getInstance().getPrefix() + "Er is een magische storm op komst..");
-		player.setActiveSpell(this);
-		
+		player.sendMessage(Messages.getInstance().getPrefix() + "Er is een magische storm op komst..");
+		player.setActiveSpell(this);	
 	}
 
 	
