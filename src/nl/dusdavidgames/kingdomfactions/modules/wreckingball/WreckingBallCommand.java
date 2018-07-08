@@ -31,12 +31,7 @@ public class WreckingBallCommand extends KingdomFactionsCommand{
 			return;
 		}
 		getPlayer().addItem(WreckingBallModule.getInstance().getWreckingBall());
-		getPlayer().sendMessage(Messages.getInstance().getPrefix() + "Je hebt een WreckingBall gekregen! Dit item is alleen voor Staffleden, het is niet toegestaan om dit item te delen met spelers.");
+		getPlayer().sendMessage(Messages.getInstance().getPrefix() + "Je hebt een WreckingBall gekregen! Dit item is alleen voor staffleden, het is niet toegestaan om dit item te delen met spelers.");
 		return;
 	}
-
-	
-	
-	
-
 }
