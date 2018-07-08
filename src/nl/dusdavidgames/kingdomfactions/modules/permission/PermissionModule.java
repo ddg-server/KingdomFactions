@@ -14,19 +14,8 @@ public class PermissionModule {
 	}
 
 	public boolean isStaff(KingdomFactionsPlayer p) {
-		if (p.hasPermission("kingdomfactions.role.lead")) {
-			return true;
-		}
-		if (p.hasPermission("kingdomfactions.role.pl")) {
-			return true;
-		}
-		if (p.hasPermission("kingdomfactions.role.mod")) {
-			return true;
-		}
-		if (p.hasPermission("kingdomfactions.role.support")) {
-			return true;
-		}
-		return false;
+		return p.hasPermission("kingdomfactions.role.lead") || p.hasPermission("kingdomfactions.role.pl") 
+			|| p.hasPermission("kingdomfactions.role.mod") || p.hasPermission("kingdomfactions.role.support");
 	}
 	
 	public StaffList getStaffMembers() {
