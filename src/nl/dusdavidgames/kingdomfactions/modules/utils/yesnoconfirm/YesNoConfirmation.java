@@ -23,8 +23,8 @@ public class YesNoConfirmation {
 	
 	
 	public YesNoConfirmation(KingdomFactionsPlayer player, String title, ArrayList<String> yesLore, ArrayList<String> noLore, YesNoListener listener) {
-		this.player =player;
-		this.title =title;
+		this.player = player;
+		this.title = title;
 		this.yesLore = yesLore;
 		this.noLore = noLore;
 		this.listener = listener;
@@ -52,14 +52,15 @@ public class YesNoConfirmation {
 		remove();
 		listener.onDeny(player);
 	}
+	
 	public void callClose() {
 		remove();
 		listener.onClose(player);
-
 	}
+	
 	public void remove() {
 		this.player.setYesNoConfirmation(null);
-        this.player.getPlayer().closeInventory();
+        	this.player.getPlayer().closeInventory();
 	}
 	
 	public Inventory getMenu() {
@@ -68,8 +69,8 @@ public class YesNoConfirmation {
 			in.setItem(i, Item.getInstance().getItem(Material.STAINED_GLASS_PANE, " ", 1, 0));
 		}
 		in.setItem(4, Item.getInstance().getItem(Material.NETHER_STAR, title, 1));
-        in.setItem(11, Item.getInstance().getItem(Material.EMERALD_BLOCK, ChatColor.GREEN + "Ja.", 1, yesLore));
-        in.setItem(15, Item.getInstance().getItem(Material.REDSTONE_BLOCK, ChatColor.RED + "Nee.", 1, noLore));
-        return in;
+        	in.setItem(11, Item.getInstance().getItem(Material.EMERALD_BLOCK, ChatColor.GREEN + "Ja.", 1, yesLore));
+       	 	in.setItem(15, Item.getInstance().getItem(Material.REDSTONE_BLOCK, ChatColor.RED + "Nee.", 1, noLore));
+        	return in;
 	}
 }
