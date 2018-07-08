@@ -25,20 +25,16 @@ public class WreckingBallModule {
 	}
 	
 	
-  final static String  WRECKINGBALL_NAME = ChatColor.RED + "Wrecking Ball";
-	
-	
-	 
+ 	final static String  WRECKINGBALL_NAME = ChatColor.RED + "Wrecking Ball";
 	
 	public ItemStack getWreckingBall() {
 		ItemStack i = new ItemStack(Material.FIREBALL);
-         ItemMeta m = i.getItemMeta();
-         m.setDisplayName(WRECKINGBALL_NAME);
-         m.setLore(Utils.getInstance().getLore(ChatColor.RED + "Misbruik wordt bestraft! \n Absoluut NIET delen met spelers."));
-         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
-         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-         i.setItemMeta(m);
-         return i;
+         	ItemMeta m = i.getItemMeta();
+         	m.setDisplayName(WRECKINGBALL_NAME);
+         	m.setLore(Utils.getInstance().getLore(ChatColor.RED + "Misbruik wordt bestraft! \n Absoluut NIET delen met spelers."));
+         	m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
+         	m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+         	i.setItemMeta(m);
+         	return i;
 	}
-	
 }
