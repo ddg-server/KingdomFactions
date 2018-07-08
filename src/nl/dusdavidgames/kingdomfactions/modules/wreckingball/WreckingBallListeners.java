@@ -34,7 +34,7 @@ public class WreckingBallListeners implements Listener {
 			if (player.isVanished()) return;
 			if (!player.isStaff()) {
 				player.getInventory().setItem(player.getInventory().getHeldItemSlot(), null);
-				player.sendMessage(Messages.getInstance().getPrefix() + "Het is voor jou niet toegestaan om dit item te gebruiken");
+				player.sendMessage(Messages.getInstance().getPrefix() + "Het is voor jou niet toegestaan om dit item te gebruiken.");
 				return;
 			}
 
