@@ -21,4 +21,4 @@ Voordat je de plugin kan builden moet je [BuildTools](https://www.spigotmc.org/t
 Op windows kan dit via cmd of via [GitBash](https://git-for-windows.github.io/)
 `mvn clean package -U`
 
-Wil je hem compiled hebben,  download hem hier: [uber-KDF-1.0.0-SNAPSHOT.jar.zip](https://github.com/ThEWiZ76/KingdomFactions/files/1089781/uber-KDF-1.0.0-SNAPSHOT.jar.zip)
+
