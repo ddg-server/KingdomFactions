@@ -44,7 +44,7 @@ public class BookModule {
 		Page info2 = new Page();
 		info2.setPageColor(ChatColor.RED);
 		info.addBlankLine();
-		info2.addLine("Bij jouw eerste stappen in deze wereld heb je dit boekje ontvangen");
+		info2.addLine("Bij jouw eerste stappen in deze wereld heb je dit boekje ontvangen.");
 		info2.addLine("Dit boekje is eenmalig te verkrijgen.");
 
 		Page uitleg = new Page();
@@ -119,9 +119,9 @@ public class BookModule {
 		bouw.setHoverText(ChatColor.RED + "Klik hier om de Twitter van Thrintiox te kijken!");
 		page.addLine(bouw);
 		page.addBlankLine();
-		ChatPieceHolder ddgtwitter = new ChatPieceHolder(ChatColor.RED + "" + ChatColor.BOLD + "Officiële DDG Twitter");
+		ChatPieceHolder ddgtwitter = new ChatPieceHolder(ChatColor.RED + "" + ChatColor.BOLD + "OfficiÃ«le DDG Twitter");
 		ddgtwitter.setClickLink("http//twitter.com/DDG_Server");
-		ddgtwitter.setHoverText("Klik hier om de officiële DDG Twitter te bekijken!");
+		ddgtwitter.setHoverText("Klik hier om de officiÃ«le DDG Twitter te bekijken!");
 		page.addLine(ddgtwitter);
 		builder.addPage(page);
 
