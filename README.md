@@ -8,7 +8,7 @@ We willen graag met de community delen hoe wij te werk gaan en hopelijk Java dev
 
 Waar kan ik solliciteren?
 -------------------------
-Intresse om in teamverband mooie dingen te maken voor de server? Wil jij leren van anderen om zelf nog beter te worden? Solliciteer dan snel [hier](http://ddg.fyi/devs) !
+Intresse om in teamverband mooie dingen te maken voor de server? Wil jij leren van anderen om zelf nog beter te worden? Solliciteer dan snel via [deze](https://forum.dusdavidgames.nl/threads/belangrijke-wijziging-developer-sollicitatie.82974/) manier!
 
 Gaan er nog updates komen?
 --------------------------
