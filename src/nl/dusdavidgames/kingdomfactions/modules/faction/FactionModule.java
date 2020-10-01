@@ -18,89 +18,87 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 
 import java.util.ArrayList;
 
+@Getter
 public class FactionModule {
 
-	private @Getter ArrayList<Faction> factions = new ArrayList<Faction>();
-	private static @Getter @Setter FactionModule instance;
+    private ArrayList<Faction> factions = new ArrayList<>();
 
-	public FactionModule() {
-		setInstance(this);
-		loadFactions();
-		new FactionCommand("faction", "kingdomfactions.command.faction", "Main command for factions", "", true, false)
-				.registerCommand();
-		new InviteModule();
-		new HomeModule();
-	}
+    @Setter
+    private static FactionModule instance;
 
-	public Faction getFaction(String faction_id) {
-		Faction faction = null;
-		for (Faction f : factions) {
-			if (faction_id.equalsIgnoreCase(f.getFactionId())) {
-				return f;
-			}
-		}
-		try {
-			faction = FactionDatabase.getInstance().loadFaction(faction_id);
-		} catch (UnkownFactionException e) {
-		}
-		return faction;
-	}
+    public FactionModule() {
+        setInstance(this);
+        loadFactions();
+        new FactionCommand("faction", "kingdomfactions.command.faction", "Main command for factions", "", true, false)
+                .registerCommand();
+        new InviteModule();
+        new HomeModule();
+    }
 
-	public Faction getFactionByName(String name) {
-		for (Faction f : factions) {
-			if (f.getName().equalsIgnoreCase(name)) {
-				return f;
-
-			}
-		}
-		return null;
-	}
-
-	public void createFaction(String name, KingdomFactionsPlayer owner) {		
-		String faction_id = Utils.getInstance().generateRandomString(Utils.FACTION);
-		Faction f = new Faction(faction_id, name, owner.getKingdom().getType());
-		try {
-			ChatModule.getInstance().addChatChannel(new FactionChannel(f, null, true));
-		} catch (DuplicateChannelException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		factions.add(f);
-		
-		owner.getMembershipProfile().setFaction(f);
-		owner.getMembershipProfile().setFactionRank(FactionRank.LEADER);
-		owner.save();
-		owner.getChatProfile().addChannel(f.getChannel());
-        if(owner.isStaff()) {
-        	owner.getChatProfile().setRank(new DDGStaffChannelRank(new FactionChannelRank(owner.getFactionRank())), owner.getFaction().getChannel());
-        } else {
-          	owner.getChatProfile().setRank(new FactionChannelRank(owner.getFactionRank()), owner.getFaction().getChannel());
-            	
+    public Faction getFaction(String factionId) {
+        Faction faction = null;
+        for (Faction faction1 : factions) {
+            if (factionId.equalsIgnoreCase(faction1.getFactionId())) {
+                return faction1;
+            }
         }
-		FactionDatabase.getInstance().createFaction(faction_id, name, owner.getKingdom().getType());
-	
-		owner.sendMessage(Messages.getInstance().getPrefix() + "Je hebt de Faction " + name + " gemaakt!");
-	}
+        try {
+            faction = FactionDatabase.getInstance().loadFaction(factionId);
+        } catch (UnkownFactionException exception) {
+        }
+        return faction;
+    }
 
-	public void loadFactions() {
-		for (String id : FactionDatabase.getInstance().getFactions()) {
-			Faction f = null;
-			try {
-				f = FactionDatabase.getInstance().loadFaction(id);
-				factions.add(f);
-			} catch (UnkownFactionException e) {
-			
-			}
-		}
+    public Faction getFactionByName(String name) {
+        for (Faction faction : factions) {
+            if (faction.getName().equalsIgnoreCase(name)) {
+                return faction;
 
-	}
+            }
+        }
+        return null;
+    }
 
-	public void deleteFaction() {
+    public void createFaction(String name, KingdomFactionsPlayer owner) {
+        String factionId = Utils.getInstance().generateRandomString(Utils.FACTION);
+        Faction faction = new Faction(factionId, name, owner.getKingdom().getType());
+        try {
+            ChatModule.getInstance().addChatChannel(new FactionChannel(faction, null, true));
+        } catch (DuplicateChannelException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        factions.add(faction);
 
-	}
+        owner.getMembershipProfile().setFaction(faction);
+        owner.getMembershipProfile().setFactionRank(FactionRank.LEADER);
+        owner.save();
+        owner.getChatProfile().addChannel(faction.getChannel());
+        if (owner.isStaff()) {
+            owner.getChatProfile().setRank(new DDGStaffChannelRank(new FactionChannelRank(owner.getFactionRank())), owner.getFaction().getChannel());
+        } else {
+            owner.getChatProfile().setRank(new FactionChannelRank(owner.getFactionRank()), owner.getFaction().getChannel());
+        }
+        FactionDatabase.getInstance().createFaction(factionId, name, owner.getKingdom().getType());
 
-	public boolean compareFactions(Faction a, Faction b) {
-		return a.getFactionId().equalsIgnoreCase(b.getFactionId());
-	}
+        owner.sendMessage(Messages.getInstance().getPrefix() + "Je hebt de Faction " + name + " gemaakt!");
+    }
+
+    public void loadFactions() {
+        for (String id : FactionDatabase.getInstance().getFactions()) {
+            Faction faction = null;
+            try {
+                faction = FactionDatabase.getInstance().loadFaction(id);
+                factions.add(faction);
+            } catch (UnkownFactionException e) {
+
+            }
+        }
+
+    }
+
+    public boolean compareFactions(Faction a, Faction b) {
+        return a.getFactionId().equalsIgnoreCase(b.getFactionId());
+    }
 
 }
