@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopLogDatabase;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
 
 public class WriteToDatabaseTask implements Runnable {
 

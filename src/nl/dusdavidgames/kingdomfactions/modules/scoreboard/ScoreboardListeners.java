@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.scoreboard;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.coins.event.CoinEditEvent;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
@@ -17,6 +14,8 @@ import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarDurationChangeEvent;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarStartEvent;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarStopEvent;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
 public class ScoreboardListeners implements Listener {
 

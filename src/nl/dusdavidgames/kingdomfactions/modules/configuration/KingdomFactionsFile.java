@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.configuration;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.data.DataManager;
@@ -16,6 +9,12 @@ import nl.dusdavidgames.kingdomfactions.modules.data.types.IntegerData;
 import nl.dusdavidgames.kingdomfactions.modules.data.types.StringData;
 import nl.dusdavidgames.kingdomfactions.modules.exception.DataException;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.DataType;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class KingdomFactionsFile {
 

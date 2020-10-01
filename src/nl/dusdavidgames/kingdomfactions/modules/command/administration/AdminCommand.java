@@ -16,12 +16,10 @@ public class AdminCommand extends KingdomFactionsCommand {
 
 	public AdminCommand(String name, String permission, String info, String usage, boolean sub, boolean allowConsole) {
 		super(name, permission, info, usage, sub, allowConsole);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void execute() {
-		return;
 	}
 
 	@Override
@@ -61,13 +59,13 @@ public class AdminCommand extends KingdomFactionsCommand {
 							
 							@Override
 							public void onDeny(KingdomFactionsPlayer player) {
-								// TODO Auto-generated method stub
+								//not in use
 								
 							}
 							
 							@Override
 							public void onClose(KingdomFactionsPlayer player) {
-								// TODO Auto-generated method stub
+								//not in use
 								
 							}
 							

@@ -1,15 +1,14 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.UUID;
-
-import org.bukkit.OfflinePlayer;
-
 import lombok.Data;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shop.ShopItem;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ShopAction;
+import org.bukkit.OfflinePlayer;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
 
 @Data
 public class ShopLog {

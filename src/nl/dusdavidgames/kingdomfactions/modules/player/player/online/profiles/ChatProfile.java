@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import io.netty.channel.ChannelException;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,14 +9,15 @@ import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelList;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.PasswordAttemptSession;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.DDGStaffChannelRank;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.FactionChannelRank;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.KingdomChannelRank;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.RankHolder;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.SpeakerChannelRank;
+import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.*;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.KingdomChannel;
 import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelNotFoundException;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class ChatProfile extends Profile {
 

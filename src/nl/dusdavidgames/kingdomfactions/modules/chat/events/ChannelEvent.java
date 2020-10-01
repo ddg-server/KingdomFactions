@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.events;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.KingdomChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.Event;
+import org.bukkit.event.HandlerList;
 
 public abstract class ChannelEvent extends Event {
 

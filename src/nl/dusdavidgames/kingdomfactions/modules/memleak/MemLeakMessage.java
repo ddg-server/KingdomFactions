@@ -1,10 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.memleak;
 
-import java.util.ArrayList;
-import java.util.Queue;
-
-import org.bukkit.command.CommandSender;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -21,6 +16,10 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.shops.ShopsModule;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shop.Shop;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger.ShopLogger;
+import org.bukkit.command.CommandSender;
+
+import java.util.ArrayList;
+import java.util.Queue;
 
 public class MemLeakMessage {
 

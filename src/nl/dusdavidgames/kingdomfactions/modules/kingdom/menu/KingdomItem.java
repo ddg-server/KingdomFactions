@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.menu;
 
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
 import lombok.Getter;
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
 
 public class KingdomItem {
 

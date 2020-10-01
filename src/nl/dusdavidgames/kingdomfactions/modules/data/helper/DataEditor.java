@@ -1,9 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.data.helper;
 
-import java.util.ArrayList;
-
 import nl.dusdavidgames.kingdomfactions.modules.data.DataList;
 import nl.dusdavidgames.kingdomfactions.modules.exception.DataException;
+
+import java.util.ArrayList;
 
 public class DataEditor extends DataMethods {
 

@@ -1,10 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.eventhandlers;
 
-import org.bukkit.ChatColor;
-import org.bukkit.Location;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.faction.FactionMember;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.KingdomModule;
@@ -16,6 +11,10 @@ import nl.dusdavidgames.kingdomfactions.modules.nexus.event.NexusAttackEvent;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.particles.ParticleEffect;
+import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
 public class NexusAttackEventHandler implements Listener {
 

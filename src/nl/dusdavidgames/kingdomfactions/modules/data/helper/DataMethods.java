@@ -3,14 +3,7 @@ package nl.dusdavidgames.kingdomfactions.modules.data.helper;
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.data.Data;
 import nl.dusdavidgames.kingdomfactions.modules.data.DataList;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.ArrayData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.BooleanData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.DoubleData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.FloatData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.IntegerData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.LongData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.ObjectData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.StringData;
+import nl.dusdavidgames.kingdomfactions.modules.data.types.*;
 import nl.dusdavidgames.kingdomfactions.modules.exception.DataException;
 
 public class DataMethods {

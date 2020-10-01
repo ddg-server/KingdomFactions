@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.events;
 
+import lombok.Getter;
+import lombok.Setter;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-
-import lombok.Getter;
-import lombok.Setter;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class PrivateMessageEvent extends Event implements Cancellable {
 
@@ -23,7 +22,7 @@ public class PrivateMessageEvent extends Event implements Cancellable {
 		setSender(sender);
 		setReceiver(receiver);
 		setMessage(message);
-		setFormat(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + "Privé" + ChatColor.GRAY + "] " + ChatColor.WHITE
+		setFormat(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + "Privï¿½" + ChatColor.GRAY + "] " + ChatColor.WHITE
 				+ sender.getName() + "->" + receiver.getName() + ": " + message);
 	}
 

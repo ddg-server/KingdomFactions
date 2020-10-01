@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.protection.detection;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerMoveEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.nexus.event.NexusCreateEvent;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.ProtectionModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerMoveEvent;
 
 public class MoveListener implements Listener{
 

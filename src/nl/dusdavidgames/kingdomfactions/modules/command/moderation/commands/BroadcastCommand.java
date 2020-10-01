@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 
 public class BroadcastCommand extends KingdomFactionsCommand {
 
@@ -20,7 +19,7 @@ public class BroadcastCommand extends KingdomFactionsCommand {
 	public void execute() {
 		String message = "";
 		for (String part : getArgs()) {
-			if (message != "")
+			if (message.isEmpty())
 				message += " ";
 			message += part;
 		}
@@ -30,8 +29,6 @@ public class BroadcastCommand extends KingdomFactionsCommand {
 
 	@Override
 	public void init() {
-		return;
+		//not in use
 	}
-	
-
 }

@@ -1,9 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework;
 
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.utils.IRank;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.ChatColor;
 
 /**
  * To be used as MetaDataValue for players for a specific channel.

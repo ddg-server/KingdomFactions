@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopLogDatabase;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+
+import java.util.ArrayList;
 
 public class ShopLogger {
 

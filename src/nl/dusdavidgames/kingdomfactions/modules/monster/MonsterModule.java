@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.monster;
 
-import org.bukkit.entity.LivingEntity;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
+import org.bukkit.entity.LivingEntity;
 
 public class MonsterModule {
 

@@ -1,9 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand.spells;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
-
+import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import nl.dusdavidgames.kingdomfactions.modules.utils.firework.FireworkEffectPlayer;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
 import org.bukkit.Location;
@@ -17,11 +18,9 @@ import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
 
-import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
-import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
-import nl.dusdavidgames.kingdomfactions.modules.utils.firework.FireworkEffectPlayer;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public class Comet extends Spell implements Listener {
 

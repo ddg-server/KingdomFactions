@@ -1,16 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.HumanEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.projectiles.ProjectileSource;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -34,6 +23,16 @@ import nl.dusdavidgames.kingdomfactions.modules.player.pvp.PvPManager;
 import nl.dusdavidgames.kingdomfactions.modules.player.runnables.GodModeRunnable;
 import nl.dusdavidgames.kingdomfactions.modules.player.runnables.SaveRunnable;
 import nl.dusdavidgames.kingdomfactions.modules.player.runnables.ScheduledSaveRunnable;
+import org.bukkit.Bukkit;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.HumanEntity;
+import org.bukkit.entity.Player;
+import org.bukkit.projectiles.ProjectileSource;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.UUID;
 
 public class PlayerModule {
 

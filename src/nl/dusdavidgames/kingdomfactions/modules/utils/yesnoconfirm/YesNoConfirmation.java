@@ -1,16 +1,15 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm;
 
-import java.util.ArrayList;
-
+import lombok.Getter;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.Inventory;
 
-import lombok.Getter;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import java.util.ArrayList;
 
 public class YesNoConfirmation {
 

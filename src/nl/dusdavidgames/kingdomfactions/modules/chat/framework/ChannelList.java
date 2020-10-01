@@ -1,9 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework;
 
+import net.md_5.bungee.api.ChatColor;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import net.md_5.bungee.api.ChatColor;
 
 public class ChannelList extends ArrayList<ChatChannel>{
 

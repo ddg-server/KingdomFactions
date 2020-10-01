@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Bukkit;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.PlayerDatabase;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import org.bukkit.Bukkit;
 
 public class ListCommand extends KingdomFactionsCommand {
 

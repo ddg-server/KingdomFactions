@@ -1,14 +1,14 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger.ShopLog;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class ShopLogDatabase {
 

@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.influence.event;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ValueEditAction;
+import org.bukkit.event.Event;
+import org.bukkit.event.HandlerList;
 
 public class InfluenceEditEvent extends Event{
     public static final HandlerList list = new HandlerList();

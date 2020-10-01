@@ -1,16 +1,15 @@
 package nl.dusdavidgames.kingdomfactions.modules.wreckingball;
 
+import lombok.Getter;
+import lombok.Setter;
+import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-
-import lombok.Getter;
-import lombok.Setter;
-import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 
 public class WreckingBallModule {
 
