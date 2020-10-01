@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.runnables;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.faction.FactionRank;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
 
 public class CoinsRunnable {
 

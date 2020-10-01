@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.eventhandlers.select;
 
+import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
-
-import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class DropEventListener implements Listener{
 	

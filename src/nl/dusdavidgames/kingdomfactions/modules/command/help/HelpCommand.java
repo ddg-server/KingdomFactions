@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.help;
 
-import org.bukkit.ChatColor;
-import org.bukkit.command.CommandSender;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.CommandModule;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
 
 
 

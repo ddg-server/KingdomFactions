@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.commands;
 
-import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.SubCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.KingdomFactionsException;
@@ -12,6 +9,8 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.shops.ShopsModule;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shop.AddItemMenu;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
 
 public class ShopCommand extends KingdomFactionsCommand {
 

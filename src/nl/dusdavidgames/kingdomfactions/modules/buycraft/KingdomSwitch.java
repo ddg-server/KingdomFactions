@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.buycraft;
 
-import java.util.Date;
-import java.util.UUID;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.KingdomModule;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
@@ -10,6 +7,9 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.PurchaseSource;
+
+import java.util.Date;
+import java.util.UUID;
 
 public class KingdomSwitch extends PurchasedPackage {
 

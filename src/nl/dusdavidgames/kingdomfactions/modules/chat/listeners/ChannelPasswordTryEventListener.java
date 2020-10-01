@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelPasswordTryEvent;
 import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelNotFoundException;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
 public class ChannelPasswordTryEventListener implements Listener {
 

@@ -1,10 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.nms;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-
-import org.bukkit.Bukkit;
-
 import net.md_5.bungee.api.ChatColor;
 import net.minecraft.server.v1_9_R2.IChatBaseComponent;
 import net.minecraft.server.v1_9_R2.IChatBaseComponent.ChatSerializer;
@@ -13,6 +8,10 @@ import net.minecraft.server.v1_9_R2.PacketPlayOutChat;
 import net.minecraft.server.v1_9_R2.PacketPlayOutTitle;
 import net.minecraft.server.v1_9_R2.PacketPlayOutTitle.EnumTitleAction;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 
 public class NMSMethods {
 

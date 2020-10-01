@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Location;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import org.bukkit.Location;
 
 public class BackCommand extends KingdomFactionsCommand{
 

@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.nms;
 
+import lombok.Getter;
+import net.minecraft.server.v1_9_R2.EnumItemSlot;
 import org.bukkit.craftbukkit.v1_9_R2.entity.CraftEntity;
 import org.bukkit.craftbukkit.v1_9_R2.inventory.CraftItemStack;
 import org.bukkit.entity.Entity;
 import org.bukkit.inventory.ItemStack;
-
-import lombok.Getter;
-import net.minecraft.server.v1_9_R2.EnumItemSlot;
 
 public class KDFEntity {
 

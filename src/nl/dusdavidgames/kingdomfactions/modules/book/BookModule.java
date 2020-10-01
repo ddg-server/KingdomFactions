@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.book;
 
-import org.bukkit.ChatColor;
-import org.bukkit.inventory.ItemStack;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.utils.book.BookBuilder;
 import nl.dusdavidgames.kingdomfactions.modules.utils.book.ChatPieceHolder;
 import nl.dusdavidgames.kingdomfactions.modules.utils.book.Page;
 import nl.dusdavidgames.kingdomfactions.modules.utils.book.SpecialPage;
+import org.bukkit.ChatColor;
+import org.bukkit.inventory.ItemStack;
 
 public class BookModule {
 

@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.particles;
 
+import net.minecraft.server.v1_9_R2.EnumParticle;
+import net.minecraft.server.v1_9_R2.PacketPlayOutWorldParticles;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_9_R2.entity.CraftPlayer;
 import org.bukkit.entity.Player;
-
-import net.minecraft.server.v1_9_R2.EnumParticle;
-import net.minecraft.server.v1_9_R2.PacketPlayOutWorldParticles;
 
 public enum ParticleEffect
 {

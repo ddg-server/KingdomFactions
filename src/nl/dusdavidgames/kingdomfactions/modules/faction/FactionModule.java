@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
@@ -17,6 +15,8 @@ import nl.dusdavidgames.kingdomfactions.modules.faction.invite.InviteModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+
+import java.util.ArrayList;
 
 public class FactionModule {
 

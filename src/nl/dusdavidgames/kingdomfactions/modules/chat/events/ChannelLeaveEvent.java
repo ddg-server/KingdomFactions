@@ -1,9 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.events;
 
-import org.bukkit.event.HandlerList;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.HandlerList;
 
 public class ChannelLeaveEvent extends ChannelEvent {
 

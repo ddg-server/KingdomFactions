@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.event;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IRank;
+import org.bukkit.event.Event;
+import org.bukkit.event.HandlerList;
 
 public class RankChangeEvent extends Event {
 	public static final HandlerList list = new HandlerList();

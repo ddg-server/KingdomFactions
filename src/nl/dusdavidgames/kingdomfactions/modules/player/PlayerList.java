@@ -1,8 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.player;
 
-import java.util.ArrayList;
-
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+
+import java.util.ArrayList;
 
 public class PlayerList extends ArrayList<KingdomFactionsPlayer>{
 

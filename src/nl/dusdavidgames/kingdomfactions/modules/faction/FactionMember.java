@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction;
 
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.UnkownPlayerException;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+
+import java.util.UUID;
 
 public class FactionMember {
 

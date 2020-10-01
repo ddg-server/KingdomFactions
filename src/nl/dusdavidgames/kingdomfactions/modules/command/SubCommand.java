@@ -1,9 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.command;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.exception.KingdomFactionsException;
+
+import java.util.ArrayList;
 
 public abstract class SubCommand {
 

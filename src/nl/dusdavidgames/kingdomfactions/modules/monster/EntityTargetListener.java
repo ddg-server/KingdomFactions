@@ -1,16 +1,15 @@
 package nl.dusdavidgames.kingdomfactions.modules.monster;
 
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityTargetEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.CapitalNexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityTargetEvent;
 
 public class EntityTargetListener implements Listener {
 

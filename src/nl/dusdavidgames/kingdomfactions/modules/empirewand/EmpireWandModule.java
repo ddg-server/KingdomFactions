@@ -1,13 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand;
 
-import java.util.ArrayList;
-
-import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.ItemFlag;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -15,13 +7,20 @@ import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.empirewand.command.EmpireWandCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.DataException;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Randomizer;
+import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import java.util.ArrayList;
 
 public class EmpireWandModule {
 	private static @Getter @Setter EmpireWandModule instance;
 
 	public EmpireWandModule() {
 		setInstance(this);
-        new EmpireWandCommand("empirewand", "kingdomfactions.command.empirewand", "Creëer een EmpireWand", "", false, false).registerCommand();
+        new EmpireWandCommand("empirewand", "kingdomfactions.command.empirewand", "Creï¿½er een EmpireWand", "", false, false).registerCommand();
 		new SpellModule();
 	}
 

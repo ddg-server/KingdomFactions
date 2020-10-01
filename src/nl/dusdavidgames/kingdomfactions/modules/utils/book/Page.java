@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.book;
 
+import lombok.Getter;
+import lombok.Setter;
+import org.bukkit.ChatColor;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-
-import org.bukkit.ChatColor;
-
-import lombok.Getter;
-import lombok.Setter;
 
 public class Page implements IPage {
 

@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.build.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.block.Action;
-import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.event.block.BlockPistonExtendEvent;
-import org.bukkit.event.player.PlayerInteractEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.CapitalNexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
@@ -19,6 +12,12 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.shops.ShopsModule;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockPistonExtendEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
 
 public class BuildingHandleListener implements Listener {
 

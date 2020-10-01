@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction.event;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.faction.invite.Invite;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.Event;
+import org.bukkit.event.HandlerList;
 
 public class PlayerInviteEvent extends Event{
 

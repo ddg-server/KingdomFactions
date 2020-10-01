@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.build.type;
 
-import org.bukkit.Material;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.configuration.ConfigModule;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
+import org.bukkit.Material;
 
 public enum BuildingType {
 	NEXUS(1, Material.COAL_BLOCK),

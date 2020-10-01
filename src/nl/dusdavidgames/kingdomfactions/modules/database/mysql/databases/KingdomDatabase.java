@@ -1,14 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
@@ -18,6 +9,14 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.CapitalNexus;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class KingdomDatabase {
 

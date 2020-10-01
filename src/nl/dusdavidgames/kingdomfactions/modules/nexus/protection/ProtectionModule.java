@@ -1,9 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.protection;
 
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.block.Block;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -18,14 +14,12 @@ import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.detection.MoveListener;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.detection.TerritoryUpdateEvent;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.BuildEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.EntityDamageByEntityEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.PlayerBucketEmptyEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.PlayerInteractEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.PlayerLeashEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.PlayerShearEventListener;
+import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners.*;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.block.Block;
 
 public class ProtectionModule {
 

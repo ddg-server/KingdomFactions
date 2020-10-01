@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 
 public class BroadcastCommand extends KingdomFactionsCommand {
 

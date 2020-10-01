@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.runnables.main;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.CombatTracker;
+import org.bukkit.Bukkit;
 
 public class MainPlayerRunnable {
 

@@ -1,14 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.player;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.UnkownPlayerException;
@@ -24,6 +15,14 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.UUID;
 
 public class PlayerLoader {
 

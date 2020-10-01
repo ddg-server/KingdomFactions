@@ -1,13 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.command;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.ConsoleCommandSender;
-
 import lombok.Getter;
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -21,6 +13,13 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.console.CommandUse
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.command.ConsoleCommandSender;
+
+import java.util.ArrayList;
 
 public abstract class KingdomFactionsCommand implements CommandExecutor {
 

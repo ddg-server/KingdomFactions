@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks;
 
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IRank;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.ChatColor;
 
 public class DDGStaffChannelRank implements ChannelRank {
 
