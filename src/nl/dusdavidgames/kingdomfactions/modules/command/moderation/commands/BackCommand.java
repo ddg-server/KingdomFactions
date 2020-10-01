@@ -11,13 +11,11 @@ public class BackCommand extends KingdomFactionsCommand{
 
 	public BackCommand(String name, String permission, String info, String usage, boolean sub, boolean allowConsole) {
 		super(name, permission, info, usage, sub, allowConsole);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
-		
+		//not in use
 	}
 
 	@Override

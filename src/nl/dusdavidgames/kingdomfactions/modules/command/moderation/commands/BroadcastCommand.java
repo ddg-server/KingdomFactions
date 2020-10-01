@@ -20,7 +20,7 @@ public class BroadcastCommand extends KingdomFactionsCommand {
 	public void execute() {
 		String message = "";
 		for (String part : getArgs()) {
-			if (message != "")
+			if (message.isEmpty())
 				message += " ";
 			message += part;
 		}
@@ -30,8 +30,6 @@ public class BroadcastCommand extends KingdomFactionsCommand {
 
 	@Override
 	public void init() {
-		return;
+		//not in use
 	}
-	
-
 }
