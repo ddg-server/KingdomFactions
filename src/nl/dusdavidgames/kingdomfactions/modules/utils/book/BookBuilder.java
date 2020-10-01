@@ -22,7 +22,7 @@ public class BookBuilder {
 		this.bookMeta = m;
 	}
 
-	private ArrayList<IPage> pages = new ArrayList<IPage>();
+	private ArrayList<IPage> pages = new ArrayList<>();
 
 	public BookBuilder setTitle(String title) {
 		this.bookMeta.setTitle(title);
@@ -60,7 +60,7 @@ public class BookBuilder {
 	}
 
 	public void setPage(int i, Page page) {
-		this.pages.set(1, page);
+		this.pages.set(i, page);
 	}
 
 	public IPage getPage(int i) {

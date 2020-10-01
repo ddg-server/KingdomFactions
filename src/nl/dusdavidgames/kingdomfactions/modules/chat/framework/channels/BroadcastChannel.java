@@ -43,7 +43,6 @@ public class BroadcastChannel extends ChatChannel {
 
 	@Override
 	public ChannelType getChannelType() {
-		// TODO Auto-generated method stub
 		return ChannelType.ANY;
 	}
 

@@ -6,7 +6,6 @@ public class Admin extends Lead {
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "Admin";
 	}
 
