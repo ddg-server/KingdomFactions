@@ -1,14 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMessageEvent;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public class RadiusChannel extends ChatChannel{
 

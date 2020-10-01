@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.war.runnable;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.modules.war.War;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarDurationChangeEvent;
+import org.bukkit.Bukkit;
 
 public class WarRunnable implements Runnable {
 

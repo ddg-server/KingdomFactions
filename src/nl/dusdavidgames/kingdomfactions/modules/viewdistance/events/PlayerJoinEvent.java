@@ -1,9 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.viewdistance.events;
 
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 
 public class PlayerJoinEvent implements Listener{
 	

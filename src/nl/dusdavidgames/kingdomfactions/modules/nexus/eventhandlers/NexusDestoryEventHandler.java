@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.eventhandlers;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.CapitalNexus;
 import nl.dusdavidgames.kingdomfactions.modules.monster.IGuard;
@@ -18,6 +11,12 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import nl.dusdavidgames.kingdomfactions.modules.utils.particles.ParticleEffect;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
+import java.util.ArrayList;
 
 public class NexusDestoryEventHandler implements Listener{
 

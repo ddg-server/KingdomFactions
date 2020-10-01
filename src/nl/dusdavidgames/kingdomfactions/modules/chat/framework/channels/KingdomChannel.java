@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -19,6 +16,8 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.Kingdom;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.Bukkit;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public final class KingdomChannel extends ChatChannel {
 	//needs to be final because the methods in KingdomChannel should not be overloaded.

@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map.Entry;
-
-import org.bukkit.Location;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -21,6 +14,12 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.menu.KingdomMenuModule;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.SetCapitalAction;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import org.bukkit.Location;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class KingdomModule {
 

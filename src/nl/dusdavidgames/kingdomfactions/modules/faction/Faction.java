@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import java.util.UUID;
-
 import lombok.Data;
 import lombok.Getter;
 import net.md_5.bungee.api.ChatColor;
@@ -31,6 +24,9 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IInhabitable;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.InhabitableType;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 public @Data class Faction implements IInhabitable {
 

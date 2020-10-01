@@ -1,15 +1,15 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.book;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.HoverEvent;
 import net.md_5.bungee.api.chat.TextComponent;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 
 public class SpecialPage implements IPage {

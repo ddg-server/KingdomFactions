@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.coins.command;
 
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.SubCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.UnkownPlayerException;
@@ -11,6 +9,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.offline.OfflineKingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.ChatColor;
 
 public class CoinsCommand extends KingdomFactionsCommand {
 

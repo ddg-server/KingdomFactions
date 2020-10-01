@@ -1,10 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.menu;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+
+import java.util.ArrayList;
 
 public class KingdomMenuModule {
 

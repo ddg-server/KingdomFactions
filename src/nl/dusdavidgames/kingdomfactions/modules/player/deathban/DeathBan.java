@@ -1,10 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.deathban;
 
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
 import lombok.Getter;
 import net.md_5.bungee.api.ChatColor;
+
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 public class DeathBan {
 

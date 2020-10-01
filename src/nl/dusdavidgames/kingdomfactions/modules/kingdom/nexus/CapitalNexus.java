@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import org.bukkit.Location;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -22,6 +16,11 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.IInhabitable;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.NexusType;
 import nl.dusdavidgames.kingdomfactions.modules.utils.particles.ParticleEffect;
+import org.bukkit.Location;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class CapitalNexus implements INexus {
 

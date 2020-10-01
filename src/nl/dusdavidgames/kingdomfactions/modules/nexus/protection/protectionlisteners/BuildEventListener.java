@@ -1,5 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners;
 
+import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
+import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.ProtectionModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -8,11 +12,6 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerArmorStandManipulateEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-
-import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.ProtectionModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class BuildEventListener implements Listener{
 

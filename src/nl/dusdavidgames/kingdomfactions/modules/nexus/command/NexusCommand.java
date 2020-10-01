@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.command;
 
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.SubCommand;
@@ -26,6 +24,7 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.enums.NexusType;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoConfirmation;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoListener;
+import org.bukkit.ChatColor;
 
 public class NexusCommand extends KingdomFactionsCommand {
 

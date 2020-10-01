@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.wreckingball;
 
-import org.bukkit.inventory.PlayerInventory;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.KingdomFactionsException;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.inventory.PlayerInventory;
 
 public class WreckingBallCommand extends KingdomFactionsCommand{
 

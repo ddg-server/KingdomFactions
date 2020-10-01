@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.event;
 
+import net.md_5.bungee.api.ChatColor;
+import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-
-import net.md_5.bungee.api.ChatColor;
-import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class NexusAttackEvent extends Event implements Cancellable{
 

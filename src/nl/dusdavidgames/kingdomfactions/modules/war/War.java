@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.war;
 
-import org.bukkit.Bukkit;
-
 import lombok.Data;
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.Kingdom;
@@ -13,6 +11,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarStartEvent;
 import nl.dusdavidgames.kingdomfactions.modules.war.event.WarStopEvent;
+import org.bukkit.Bukkit;
 
 public @Data class War {
 

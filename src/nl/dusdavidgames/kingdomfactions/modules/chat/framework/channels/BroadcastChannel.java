@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels;
 
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public class BroadcastChannel extends ChatChannel {
 

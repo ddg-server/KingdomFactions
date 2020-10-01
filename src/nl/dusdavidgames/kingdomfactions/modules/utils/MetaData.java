@@ -1,8 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils;
 
-import java.util.ArrayList;
-
 import nl.dusdavidgames.kingdomfactions.modules.data.Data;
+
+import java.util.ArrayList;
 
 public class MetaData extends ArrayList<Data> {
 

@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -13,18 +7,8 @@ import nl.dusdavidgames.kingdomfactions.modules.chat.commands.ChannelCommand;
 import nl.dusdavidgames.kingdomfactions.modules.chat.commands.MsgCommandExecutor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.commands.ReplyCommandExecutor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.BroadcastChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.FactionChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.KingdomChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.RadiusChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.SpyChannel;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.AsyncPlayerChatEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.ChannelMessageEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.ChannelPasswordTryEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.ChannelSwitchEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.ChatKingdomSwitchEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.PrivateMessageEventListener;
-import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.RankChangeEventListener;
+import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.*;
+import nl.dusdavidgames.kingdomfactions.modules.chat.listeners.*;
 import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelNotFoundException;
 import nl.dusdavidgames.kingdomfactions.modules.exception.chat.DuplicateChannelException;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
@@ -34,6 +18,11 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.Bukkit;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @authors Jannyboy11, Steenooo
@@ -54,8 +43,8 @@ public class ChatModule {
 		setInstance(this);
 		initChannels();
 		new ChannelCommand("channel", "kingdomfactions.command.channel", "Channel commands", "channel [sub]", true, false).registerCommand();
-		new ReplyCommandExecutor("reply", "kingdomfactions.command.reply", "Reageer op een Privé Bericht", "r [bericht]", false, false).registerCommand();
-		new MsgCommandExecutor("msg", "kingdomfactions.command.msg", "Stuur een Privé Bericht", "msg [speler] [bericht]", false, false).registerCommand();
+		new ReplyCommandExecutor("reply", "kingdomfactions.command.reply", "Reageer op een Privï¿½ Bericht", "r [bericht]", false, false).registerCommand();
+		new MsgCommandExecutor("msg", "kingdomfactions.command.msg", "Stuur een Privï¿½ Bericht", "msg [speler] [bericht]", false, false).registerCommand();
 	    KingdomFactionsPlugin pl = KingdomFactionsPlugin.getInstance();
 	    pl.registerListener(new AsyncPlayerChatEventListener());
 	    pl.registerListener(new ChannelMessageEventListener());

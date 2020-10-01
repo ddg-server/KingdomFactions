@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.scoreboard;
 
-import org.bukkit.World;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -16,6 +14,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.InhabitableType;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
+import org.bukkit.World;
 
 public class ScoreboardModule {
 

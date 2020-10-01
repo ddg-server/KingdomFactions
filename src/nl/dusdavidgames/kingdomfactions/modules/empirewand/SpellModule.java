@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -12,6 +10,8 @@ import nl.dusdavidgames.kingdomfactions.modules.empirewand.spells.Leap;
 import nl.dusdavidgames.kingdomfactions.modules.empirewand.spells.LightningStorm;
 import nl.dusdavidgames.kingdomfactions.modules.empirewand.spells.Spark;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+
+import java.util.ArrayList;
 
 public class SpellModule {
 

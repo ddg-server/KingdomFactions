@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.command.CommandSender;
-import org.bukkit.inventory.ItemStack;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -19,6 +12,12 @@ import nl.dusdavidgames.kingdomfactions.modules.shops.shop.Shop;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shop.ShopItem;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shoplogger.ShopLogger;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.inventory.ItemStack;
+
+import java.util.ArrayList;
 
 public class ShopsModule {
 

@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.listeners;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.faction.FactionRank;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoListener;
+import org.bukkit.Bukkit;
 
 public class LeaderListener implements YesNoListener {
 

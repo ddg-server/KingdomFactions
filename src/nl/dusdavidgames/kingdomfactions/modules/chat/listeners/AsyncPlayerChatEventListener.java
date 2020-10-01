@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelPasswordTryEvent;
@@ -16,6 +10,11 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.Bukkit;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public class AsyncPlayerChatEventListener implements Listener {
 
@@ -136,7 +135,7 @@ public class AsyncPlayerChatEventListener implements Listener {
 			if (receiver != null) {
 				
 				if(player.getKingdom() != receiver.getKingdom() && !player.isStaff()) {
-					player.sendMessage(Messages.getInstance().getPrefix() + "Je kan alleen privé berichten sturen naar spelers in jouw kingdom!");
+					player.sendMessage(Messages.getInstance().getPrefix() + "Je kan alleen privï¿½ berichten sturen naar spelers in jouw kingdom!");
 					 event.setCancelled(true);
 					return false;
 				}
