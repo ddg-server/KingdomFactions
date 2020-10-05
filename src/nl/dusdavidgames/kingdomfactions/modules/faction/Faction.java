@@ -34,9 +34,13 @@ public @Data class Faction implements IInhabitable {
 	private ArrayList<FactionMember> members = new ArrayList<FactionMember>();
 	private String name;
 	private Home home;
-	private @Getter ArrayList<Invite> invites = new ArrayList<Invite>();
+
+	@Getter
+	private ArrayList<Invite> invites = new ArrayList<Invite>();
 	private KingdomType style;
-	private @Getter HashMap<String, Integer> shopLimits = new HashMap<>();
+
+	@Getter
+	private HashMap<String, Integer> shopLimits = new HashMap<>();
 
 	public Faction(String factionId, String name, KingdomType style) {
 		this.name = name;
