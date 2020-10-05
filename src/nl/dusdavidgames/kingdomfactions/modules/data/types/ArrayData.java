@@ -1,5 +1,7 @@
 package nl.dusdavidgames.kingdomfactions.modules.data.types;
 
+import java.util.ArrayList;
+import java.util.List;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.data.Data;
 
