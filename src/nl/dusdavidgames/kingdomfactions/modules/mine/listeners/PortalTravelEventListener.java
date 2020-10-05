@@ -1,5 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.mine.listeners;
 
+import net.md_5.bungee.api.ChatColor;
+import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
+import nl.dusdavidgames.kingdomfactions.modules.mine.MineTravelEvent;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -8,14 +15,6 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.scheduler.BukkitRunnable;
-
-import net.md_5.bungee.api.ChatColor;
-import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
-import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
-import nl.dusdavidgames.kingdomfactions.modules.mine.MineTravelEvent;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 
 public class PortalTravelEventListener implements Listener {
 

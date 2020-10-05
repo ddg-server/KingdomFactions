@@ -1,18 +1,13 @@
 package nl.dusdavidgames.kingdomfactions.modules.scoreboard;
 
-import java.util.HashMap;
-
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.scoreboard.DisplaySlot;
-import org.bukkit.scoreboard.Objective;
-import org.bukkit.scoreboard.Score;
-import org.bukkit.scoreboard.Scoreboard;
-import org.bukkit.scoreboard.Team;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.scoreboard.*;
+
+import java.util.HashMap;
 
 public class ScoreBoard {
 	private Scoreboard board;

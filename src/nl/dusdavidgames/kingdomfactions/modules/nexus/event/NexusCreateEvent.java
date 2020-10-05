@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.event;
 
-import org.bukkit.Location;
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
-
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Location;
+import org.bukkit.event.Event;
+import org.bukkit.event.HandlerList;
 
 public class NexusCreateEvent extends Event{
 

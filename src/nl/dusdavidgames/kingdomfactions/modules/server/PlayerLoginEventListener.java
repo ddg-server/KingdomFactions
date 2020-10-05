@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.server;
 
+import net.md_5.bungee.api.ChatColor;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.event.player.PlayerLoginEvent.Result;
-
-import net.md_5.bungee.api.ChatColor;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class PlayerLoginEventListener implements Listener{
 

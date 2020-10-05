@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels;
 
-import org.bukkit.ChatColor;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMessageEvent;
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.PrivateMessageEvent;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
@@ -14,6 +8,11 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.ChatColor;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public class SpyChannel extends ChatChannel implements Listener {
 

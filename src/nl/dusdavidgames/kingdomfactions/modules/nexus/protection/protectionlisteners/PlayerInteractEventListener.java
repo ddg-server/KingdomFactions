@@ -1,5 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.protection.protectionlisteners;
 
+import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.ProtectionModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.Listener;
@@ -7,10 +10,6 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.material.MaterialData;
 import org.bukkit.material.Openable;
-
-import nl.dusdavidgames.kingdomfactions.modules.nexus.protection.ProtectionModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class PlayerInteractEventListener implements Listener{
 	

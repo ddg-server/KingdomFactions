@@ -1,7 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand.spells;
 
-import java.util.ArrayList;
-
+import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Sound;
@@ -13,9 +14,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
 
-import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
-import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import java.util.ArrayList;
 
 public class Leap extends Spell implements Listener {
 

@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
+import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class NightVisionCommand extends KingdomFactionsCommand {
 

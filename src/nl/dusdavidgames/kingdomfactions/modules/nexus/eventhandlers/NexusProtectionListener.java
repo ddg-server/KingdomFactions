@@ -1,7 +1,7 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.eventhandlers;
 
-import java.util.List;
-
+import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -10,8 +10,7 @@ import org.bukkit.event.block.BlockPistonExtendEvent;
 import org.bukkit.event.block.BlockPistonRetractEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
 
-import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import java.util.List;
 
 public class NexusProtectionListener implements Listener {
 

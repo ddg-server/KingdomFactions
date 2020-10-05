@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player;
 
-import java.util.UUID;
-
 import nl.dusdavidgames.kingdomfactions.modules.exception.faction.FactionException;
 import nl.dusdavidgames.kingdomfactions.modules.exception.value.ValueException;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
@@ -10,6 +8,8 @@ import nl.dusdavidgames.kingdomfactions.modules.faction.FactionRank;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.KingdomRank;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.Kingdom;
 import nl.dusdavidgames.kingdomfactions.modules.player.deathban.DeathBan;
+
+import java.util.UUID;
 
 public interface IPlayerBase {
 

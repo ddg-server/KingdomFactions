@@ -1,9 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.exception.kingdom.KingdomException;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
@@ -17,6 +13,9 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.event.RankChangeEvent;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.Kingdom;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.menu.KingdomMenu;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
+
+import java.util.ArrayList;
 
 public class MembershipProfile extends Profile {
 

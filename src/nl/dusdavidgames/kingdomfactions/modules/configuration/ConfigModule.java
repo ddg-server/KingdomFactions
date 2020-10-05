@@ -1,14 +1,14 @@
 package nl.dusdavidgames.kingdomfactions.modules.configuration;
 
-import java.io.File;
-import java.util.ArrayList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.KingdomType;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.build.type.BuildLevel;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.build.type.BuildingType;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class ConfigModule {
 

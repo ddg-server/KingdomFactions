@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMessageEvent;
@@ -13,6 +10,8 @@ import nl.dusdavidgames.kingdomfactions.modules.kingdom.KingdomModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.Bukkit;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 @EqualsAndHashCode(callSuper = false)
 public @Data class FactionChannel extends ChatChannel {

@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
+import nl.dusdavidgames.kingdomfactions.modules.chat.events.PrivateMessageEvent;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.PrivateMessageEvent;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 
 public class PrivateMessageEventListener implements Listener {
 

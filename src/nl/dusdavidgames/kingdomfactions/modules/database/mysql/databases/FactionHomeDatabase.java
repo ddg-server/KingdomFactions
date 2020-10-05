@@ -1,13 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
@@ -16,6 +8,13 @@ import nl.dusdavidgames.kingdomfactions.modules.faction.home.Home;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.NexusModule;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class FactionHomeDatabase {
 

@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.influence;
 
-import org.bukkit.command.ConsoleCommandSender;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.SubCommand;
@@ -11,6 +9,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.command.ConsoleCommandSender;
 
 public class InfluenceCommand extends KingdomFactionsCommand {
 

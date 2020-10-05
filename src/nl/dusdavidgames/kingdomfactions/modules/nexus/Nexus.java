@@ -1,13 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus;
 
-import java.util.ArrayList;
-
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.World;
-import org.bukkit.block.Block;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.configuration.ConfigModule;
@@ -27,6 +19,13 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.NexusType;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.World;
+import org.bukkit.block.Block;
+
+import java.util.ArrayList;
 
 public class Nexus implements INexus{
 

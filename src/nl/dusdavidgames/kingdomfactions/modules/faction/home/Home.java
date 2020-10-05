@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction.home;
 
-import org.bukkit.Location;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
+import org.bukkit.Location;
 
 public class Home {
 

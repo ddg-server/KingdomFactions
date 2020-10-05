@@ -1,21 +1,19 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.logging;
 
-import java.io.File;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
-import org.bukkit.Bukkit;
-import org.bukkit.configuration.file.YamlConfiguration;
-
 import com.zaxxer.hikari.HikariDataSource;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.configuration.ConfigModule;
 import nl.dusdavidgames.kingdomfactions.modules.exception.DataException;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import java.io.File;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class LoggingModule {
 

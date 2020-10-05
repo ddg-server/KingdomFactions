@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.event;
 
+import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-
-import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class NexusDestroyEvent extends Event implements Cancellable {
 

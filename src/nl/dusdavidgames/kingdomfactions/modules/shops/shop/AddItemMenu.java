@@ -1,5 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shop;
 
+import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
+import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopDatabase;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -11,10 +14,6 @@ import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.EnchantmentStorageMeta;
-
-import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public class AddItemMenu implements Listener {
 

@@ -2,14 +2,7 @@ package nl.dusdavidgames.kingdomfactions.modules.utils.enums;
 
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.data.Data;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.ArrayData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.BooleanData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.DoubleData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.FloatData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.IntegerData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.LongData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.ObjectData;
-import nl.dusdavidgames.kingdomfactions.modules.data.types.StringData;
+import nl.dusdavidgames.kingdomfactions.modules.data.types.*;
 
 public enum DataType {
 

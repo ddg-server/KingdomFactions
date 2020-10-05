@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks;
 
-import org.bukkit.ChatColor;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.KingdomRank;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IRank;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ChannelType;
+import org.bukkit.ChatColor;
 
 public final class KingdomChannelRank implements ChannelRank {
 	

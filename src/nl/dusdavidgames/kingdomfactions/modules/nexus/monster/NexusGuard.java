@@ -1,17 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.monster;
 
-import java.util.HashMap;
-
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.craftbukkit.v1_9_R2.entity.CraftEntity;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Monster;
-import org.bukkit.entity.Skeleton;
-import org.bukkit.entity.Zombie;
-
 import lombok.Data;
 import net.md_5.bungee.api.ChatColor;
 import net.minecraft.server.v1_9_R2.EnumItemSlot;
@@ -22,6 +10,13 @@ import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
 import nl.dusdavidgames.kingdomfactions.modules.utils.nms.KDFEntity;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.craftbukkit.v1_9_R2.entity.CraftEntity;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.*;
+
+import java.util.HashMap;
 
 public @Data class NexusGuard implements IGuard {
 

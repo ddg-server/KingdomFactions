@@ -1,18 +1,17 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shop;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import lombok.Data;
+import nl.dusdavidgames.kingdomfactions.modules.shops.ShopsModule;
+import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.EnchantmentStorageMeta;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import lombok.Data;
-import nl.dusdavidgames.kingdomfactions.modules.shops.ShopsModule;
-import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @Data
 public class ShopItem {

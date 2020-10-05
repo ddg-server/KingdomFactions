@@ -1,12 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import java.util.UUID;
-
 import lombok.Data;
 import lombok.Getter;
 import net.md_5.bungee.api.ChatColor;
@@ -32,15 +25,22 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.utils.IInhabitable;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.InhabitableType;
 
+import java.util.*;
+import java.util.Map.Entry;
+
 public @Data class Faction implements IInhabitable {
 
 	private String factionId;
 	private ArrayList<FactionMember> members = new ArrayList<FactionMember>();
 	private String name;
 	private Home home;
-	private @Getter ArrayList<Invite> invites = new ArrayList<Invite>();
+
+	@Getter
+	private ArrayList<Invite> invites = new ArrayList<Invite>();
 	private KingdomType style;
-	private @Getter HashMap<String, Integer> shopLimits = new HashMap<>();
+
+	@Getter
+	private HashMap<String, Integer> shopLimits = new HashMap<>();
 
 	public Faction(String factionId, String name, KingdomType style) {
 		this.name = name;

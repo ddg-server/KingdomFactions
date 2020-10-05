@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand.spells;
 
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
@@ -10,6 +7,8 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.particles.ParticleEffect;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
 
 public class LightningStorm extends Spell{
 
