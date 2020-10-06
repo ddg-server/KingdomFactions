@@ -1,10 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.mine;
 
-import java.util.List;
-
-import org.bukkit.Location;
-import org.bukkit.Material;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -14,6 +9,10 @@ import nl.dusdavidgames.kingdomfactions.modules.mine.listeners.PortalProtection;
 import nl.dusdavidgames.kingdomfactions.modules.mine.listeners.PortalTravelEventListener;
 import nl.dusdavidgames.kingdomfactions.modules.mine.listeners.WorldProtection;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Location;
+import org.bukkit.Material;
+
+import java.util.List;
 
 public class MineModule {
 

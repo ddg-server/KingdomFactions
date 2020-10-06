@@ -1,15 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-
-import org.bukkit.Material;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
@@ -17,6 +7,15 @@ import nl.dusdavidgames.kingdomfactions.modules.nexus.build.type.BuildLevel;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.build.type.BuildingType;
 import nl.dusdavidgames.kingdomfactions.modules.shops.shop.ShopItem;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Material;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class ShopDatabase {
 

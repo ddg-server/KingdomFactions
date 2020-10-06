@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import nl.dusdavidgames.kingdomfactions.modules.faction.FactionRank;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.event.RankChangeEvent;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 public class RankChangeEventListener implements Listener{
 
 	

@@ -1,47 +1,23 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.framework;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelBanEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelCreateEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelDeleteEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelInviteEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelJoinEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelKickEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelLeaveEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMessageEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMuteEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelPasswordRemoveEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelPasswordSetEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelSwitchEvent;
-import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelUnmuteEvent;
+import nl.dusdavidgames.kingdomfactions.modules.chat.events.*;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.DDGStaffChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.ListenerChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.OwnerChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.SpeakerChannelRank;
-import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelException;
-import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelImmutableException;
-import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelNotFoundException;
-import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelPersistentException;
-import nl.dusdavidgames.kingdomfactions.modules.exception.chat.ChannelRankException;
+import nl.dusdavidgames.kingdomfactions.modules.exception.chat.*;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+
+import java.util.*;
 
 public class ChatChannel implements IChannelTypeHolder {
 

@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.pvplog;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.kitteh.vanish.event.VanishStatusChangeEvent;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.permission.PermissionModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.CombatTracker;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.kitteh.vanish.event.VanishStatusChangeEvent;
 
 public class VanishListener implements Listener{
 

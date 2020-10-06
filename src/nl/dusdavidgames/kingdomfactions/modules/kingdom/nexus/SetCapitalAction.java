@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus;
 
-import org.bukkit.Location;
-
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom.Kingdom;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.action.IAction;
+import org.bukkit.Location;
 
 public @Data class SetCapitalAction implements IAction {
 

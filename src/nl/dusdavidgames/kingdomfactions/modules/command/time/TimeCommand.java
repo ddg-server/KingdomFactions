@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.time;
 
-import org.bukkit.command.CommandSender;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.UnkownPlayerException;
@@ -11,6 +9,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.offline.OfflineKin
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.time.TimeHelper;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.command.CommandSender;
 
 public class TimeCommand extends KingdomFactionsCommand {
 

@@ -1,11 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.transfer;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.Nexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+
+import java.util.ArrayList;
 
 public class TransferManager {
 

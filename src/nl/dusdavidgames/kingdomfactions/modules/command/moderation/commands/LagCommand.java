@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Bukkit;
-import org.bukkit.World;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import org.bukkit.Bukkit;
+import org.bukkit.World;
 
 public class LagCommand extends KingdomFactionsCommand {
 

@@ -1,9 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus.eventhandlers;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
-
+import net.md_5.bungee.api.ChatColor;
+import nl.dusdavidgames.kingdomfactions.modules.monster.IGuard;
+import nl.dusdavidgames.kingdomfactions.modules.monster.MonsterModule;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.EventHandler;
@@ -11,10 +11,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
 
-import net.md_5.bungee.api.ChatColor;
-import nl.dusdavidgames.kingdomfactions.modules.monster.IGuard;
-import nl.dusdavidgames.kingdomfactions.modules.monster.MonsterModule;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Random;
 
 public class GuardManager implements Listener{
 

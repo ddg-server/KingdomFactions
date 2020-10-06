@@ -2,20 +2,7 @@ package nl.dusdavidgames.kingdomfactions.modules.command.moderation;
 
 import lombok.Getter;
 import lombok.Setter;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.BroadcastCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.DeathBanCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.EnderseeCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.FlyCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.GodmodeCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.InfoCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.InvseeCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.LagCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.ListCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.NightVisionCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.SayCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.SpeedCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.TeleportationCommand;
-import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.TphereCommand;
+import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.*;
 import nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.gamemode.GameModeCommand;
 
 public class Moderation {

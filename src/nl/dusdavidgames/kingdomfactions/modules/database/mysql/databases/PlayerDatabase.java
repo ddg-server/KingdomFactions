@@ -1,11 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.UUID;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
@@ -21,6 +15,12 @@ import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFact
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.UUID;
 
 public class PlayerDatabase extends PlayerLoader {
 

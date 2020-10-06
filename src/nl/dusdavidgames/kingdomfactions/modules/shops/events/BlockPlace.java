@@ -1,5 +1,6 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.events;
 
+import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
@@ -10,8 +11,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-
-import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 
 public class BlockPlace implements Listener {
 

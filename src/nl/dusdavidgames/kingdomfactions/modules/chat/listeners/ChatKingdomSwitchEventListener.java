@@ -1,9 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
+import nl.dusdavidgames.kingdomfactions.modules.kingdom.event.KingdomSwitchEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-
-import nl.dusdavidgames.kingdomfactions.modules.kingdom.event.KingdomSwitchEvent;
 
 public class ChatKingdomSwitchEventListener implements Listener {
 

@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player.console;
 
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.ConsoleCommandSender;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import org.bukkit.command.CommandSender;
+import org.bukkit.command.ConsoleCommandSender;
 
 public class CommandUser{
 

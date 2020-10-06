@@ -1,10 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.faction.command;
 
-import java.util.ArrayList;
-
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.DDGStaffChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.FactionChannelRank;
@@ -35,6 +30,10 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoConfirmation;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoListener;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.listeners.LeaderListener;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import java.util.ArrayList;
 
 public class FactionCommand extends KingdomFactionsCommand {
 

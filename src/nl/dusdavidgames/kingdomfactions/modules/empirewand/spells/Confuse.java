@@ -1,7 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.empirewand.spells;
 
-import java.util.Set;
-
+import lombok.Getter;
+import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
+import nl.dusdavidgames.kingdomfactions.modules.empirewand.event.SpellExecuteEvent;
+import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect.Type;
 import org.bukkit.Location;
@@ -12,12 +16,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import lombok.Getter;
-import nl.dusdavidgames.kingdomfactions.modules.empirewand.Spell;
-import nl.dusdavidgames.kingdomfactions.modules.empirewand.event.SpellExecuteEvent;
-import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
-import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import java.util.Set;
 
 public class Confuse extends Spell {
 

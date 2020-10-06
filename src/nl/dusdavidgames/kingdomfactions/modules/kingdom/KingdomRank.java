@@ -1,9 +1,8 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom;
 
-import org.bukkit.ChatColor;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IRank;
+import org.bukkit.ChatColor;
 
 public enum KingdomRank implements IRank{
 

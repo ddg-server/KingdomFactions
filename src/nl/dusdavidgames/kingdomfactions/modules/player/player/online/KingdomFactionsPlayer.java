@@ -1,26 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player.online;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-import org.bukkit.GameMode;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.attribute.Attribute;
-import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_9_R2.entity.CraftPlayer;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
-import org.bukkit.potion.PotionEffect;
-import org.kitteh.vanish.staticaccess.VanishNoPacket;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
@@ -60,11 +39,7 @@ import nl.dusdavidgames.kingdomfactions.modules.player.deathban.DeathBan;
 import nl.dusdavidgames.kingdomfactions.modules.player.deathban.DeathBanModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.offline.OfflineKingdomFactionsPlayer;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.ChatProfile;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.CombatTracker;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.MembershipProfile;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.SettingsProfile;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.*;
 import nl.dusdavidgames.kingdomfactions.modules.scoreboard.ScoreBoard;
 import nl.dusdavidgames.kingdomfactions.modules.scoreboard.ScoreboardModule;
 import nl.dusdavidgames.kingdomfactions.modules.time.TimeHelper;
@@ -79,6 +54,22 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.enums.TitleDuration;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import nl.dusdavidgames.kingdomfactions.modules.utils.yesnoconfirm.YesNoConfirmation;
 import nl.dusdavidgames.kingdomfactions.modules.viewdistance.ViewDistanceModule;
+import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.block.Block;
+import org.bukkit.craftbukkit.v1_9_R2.entity.CraftPlayer;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.PlayerInventory;
+import org.bukkit.potion.PotionEffect;
+import org.kitteh.vanish.staticaccess.VanishNoPacket;
+
+import java.util.*;
 
 public class KingdomFactionsPlayer implements IPlayerBase {
 

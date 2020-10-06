@@ -1,17 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.pvp;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Arrow;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.Projectile;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityCombustByEntityEvent;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.PlayerException;
@@ -22,6 +10,17 @@ import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.settings.Setting;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Arrow;
+import org.bukkit.entity.Player;
+import org.bukkit.entity.Projectile;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityCombustByEntityEvent;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class PvPManager implements Listener {
 

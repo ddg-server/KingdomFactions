@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.command;
 
-import java.util.ArrayList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.command.administration.AdminCommand;
@@ -9,6 +7,8 @@ import nl.dusdavidgames.kingdomfactions.modules.command.help.HelpCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.moderation.Moderation;
 import nl.dusdavidgames.kingdomfactions.modules.command.spawn.SpawnCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.time.TimeCommand;
+
+import java.util.ArrayList;
 
 public class CommandModule {
 

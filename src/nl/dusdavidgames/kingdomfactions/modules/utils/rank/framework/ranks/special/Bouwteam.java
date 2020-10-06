@@ -6,7 +6,6 @@ public class Bouwteam extends SpecialRank {
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "Bouwteam";
 	}
 

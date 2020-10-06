@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.ChatColor;
-import org.bukkit.potion.PotionEffectType;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.GodMode;
+import org.bukkit.ChatColor;
+import org.bukkit.potion.PotionEffectType;
 
 public class GodmodeCommand extends  KingdomFactionsCommand {
 

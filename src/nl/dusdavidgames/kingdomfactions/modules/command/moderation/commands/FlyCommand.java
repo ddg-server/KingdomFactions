@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
 
 public class FlyCommand extends KingdomFactionsCommand{
 

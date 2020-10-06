@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.coins;
 
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.coins.command.CoinsCommand;
@@ -10,6 +8,7 @@ import nl.dusdavidgames.kingdomfactions.modules.coins.event.CoinEditEvent;
 import nl.dusdavidgames.kingdomfactions.modules.exception.value.ValueException;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ValueEditAction;
+import org.bukkit.Bukkit;
 
 public class CoinsModule {
 

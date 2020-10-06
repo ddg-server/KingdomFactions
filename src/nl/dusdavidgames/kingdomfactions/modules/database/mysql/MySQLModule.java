@@ -1,27 +1,18 @@
 package nl.dusdavidgames.kingdomfactions.modules.database.mysql;
 
+import com.zaxxer.hikari.HikariDataSource;
+import lombok.Getter;
+import lombok.Setter;
+import nl.dusdavidgames.kingdomfactions.modules.configuration.ConfigModule;
+import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.*;
+import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.YamlConfiguration;
+
 import java.io.File;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
-import org.bukkit.Bukkit;
-import org.bukkit.configuration.file.YamlConfiguration;
-
-import com.zaxxer.hikari.HikariDataSource;
-
-import lombok.Getter;
-import lombok.Setter;
-import nl.dusdavidgames.kingdomfactions.modules.configuration.ConfigModule;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.BuildingDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.FactionDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.FactionHomeDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.KingdomDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.NexusDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.PlayerDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.ShopLogDatabase;
-import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 
 public class MySQLModule {
 

@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
+import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-
-import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 
 public class SayCommand extends KingdomFactionsCommand {
 

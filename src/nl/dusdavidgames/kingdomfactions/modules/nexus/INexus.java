@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.nexus;
 
-import java.util.ArrayList;
-
-import org.bukkit.Location;
-
 import nl.dusdavidgames.kingdomfactions.modules.monster.IGuard;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.IInhabitable;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.NexusType;
+import org.bukkit.Location;
+
+import java.util.ArrayList;
 
 public interface INexus {
 

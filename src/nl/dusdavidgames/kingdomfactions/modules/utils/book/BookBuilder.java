@@ -1,18 +1,17 @@
 package nl.dusdavidgames.kingdomfactions.modules.utils.book;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import net.md_5.bungee.api.chat.BaseComponent;
+import net.md_5.bungee.api.chat.TextComponent;
+import net.md_5.bungee.chat.ComponentSerializer;
+import net.minecraft.server.v1_9_R2.IChatBaseComponent.ChatSerializer;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_9_R2.inventory.CraftMetaBook;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
-import net.md_5.bungee.api.chat.BaseComponent;
-import net.md_5.bungee.api.chat.TextComponent;
-import net.md_5.bungee.chat.ComponentSerializer;
-import net.minecraft.server.v1_9_R2.IChatBaseComponent.ChatSerializer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class BookBuilder {
 
@@ -22,7 +21,7 @@ public class BookBuilder {
 		this.bookMeta = m;
 	}
 
-	private ArrayList<IPage> pages = new ArrayList<IPage>();
+	private ArrayList<IPage> pages = new ArrayList<>();
 
 	public BookBuilder setTitle(String title) {
 		this.bookMeta.setTitle(title);
@@ -60,7 +59,7 @@ public class BookBuilder {
 	}
 
 	public void setPage(int i, Page page) {
-		this.pages.set(1, page);
+		this.pages.set(i, page);
 	}
 
 	public IPage getPage(int i) {
