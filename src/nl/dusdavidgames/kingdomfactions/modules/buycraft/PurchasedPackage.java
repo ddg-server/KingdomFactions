@@ -1,11 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.buycraft;
 
-import java.util.Date;
-import java.util.UUID;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.PurchaseSource;
+
+import java.util.Date;
+import java.util.UUID;
 
 public abstract class PurchasedPackage {
 	

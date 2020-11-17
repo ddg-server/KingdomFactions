@@ -1,16 +1,15 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.deathban;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.UUID;
-
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.Bukkit;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.UUID;
 
 public class DeathBanModule {
 

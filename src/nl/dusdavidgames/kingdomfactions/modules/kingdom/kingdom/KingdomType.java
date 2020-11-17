@@ -1,8 +1,7 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom;
 
-import org.bukkit.ChatColor;
-
 import lombok.Getter;
+import org.bukkit.ChatColor;
 
 public enum KingdomType {
 		 

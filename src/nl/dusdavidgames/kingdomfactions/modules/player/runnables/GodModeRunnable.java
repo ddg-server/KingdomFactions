@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.runnables;
 
-import org.bukkit.Bukkit;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.GodMode;
+import org.bukkit.Bukkit;
 
 public class GodModeRunnable {
 

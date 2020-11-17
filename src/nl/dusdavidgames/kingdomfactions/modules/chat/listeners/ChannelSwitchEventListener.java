@@ -1,8 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelSwitchEvent;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.DDGStaffChannelRank;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channelranks.FactionChannelRank;
@@ -11,6 +8,8 @@ import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.FactionC
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.KingdomChannel;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.channels.RadiusChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.ChatProfile;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
 public class ChannelSwitchEventListener implements Listener {
 

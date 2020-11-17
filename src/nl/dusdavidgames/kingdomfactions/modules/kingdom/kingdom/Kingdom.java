@@ -1,9 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.kingdom;
 
-import java.util.ArrayList;
-
-import org.bukkit.Location;
-
 import lombok.Data;
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
@@ -19,6 +15,9 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.IInhabitable;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.InhabitableType;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Location;
+
+import java.util.ArrayList;
 
 public @Data class Kingdom implements IInhabitable{
 

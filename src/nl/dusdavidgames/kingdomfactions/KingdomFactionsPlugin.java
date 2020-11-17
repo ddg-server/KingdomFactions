@@ -1,17 +1,5 @@
 package nl.dusdavidgames.kingdomfactions;
 
-import java.util.Random;
-
-import org.bukkit.Bukkit;
-import org.bukkit.World;
-import org.bukkit.WorldCreator;
-import org.bukkit.WorldType;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.event.Listener;
-import org.bukkit.plugin.java.JavaPlugin;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
@@ -45,6 +33,17 @@ import nl.dusdavidgames.kingdomfactions.modules.utils.UtilsModule;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
 import nl.dusdavidgames.kingdomfactions.modules.wreckingball.WreckingBallModule;
+import org.bukkit.Bukkit;
+import org.bukkit.World;
+import org.bukkit.WorldCreator;
+import org.bukkit.WorldType;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.LivingEntity;
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Random;
 
 public class KingdomFactionsPlugin extends JavaPlugin {
 

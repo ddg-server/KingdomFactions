@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.war.command;
 
-import org.bukkit.ChatColor;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.command.SubCommand;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
+import org.bukkit.ChatColor;
 
 public class WarCommand extends KingdomFactionsCommand {
 

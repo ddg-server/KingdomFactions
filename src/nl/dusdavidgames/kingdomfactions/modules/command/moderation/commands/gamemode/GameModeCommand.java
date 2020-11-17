@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands.gamemode;
 
-import org.bukkit.ChatColor;
-import org.bukkit.GameMode;
-
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.exception.player.UnkownPlayerException;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
+import org.bukkit.ChatColor;
+import org.bukkit.GameMode;
 
 public class GameModeCommand extends KingdomFactionsCommand {
 

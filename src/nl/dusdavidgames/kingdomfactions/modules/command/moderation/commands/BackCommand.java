@@ -1,23 +1,20 @@
 package nl.dusdavidgames.kingdomfactions.modules.command.moderation.commands;
 
-import org.bukkit.Location;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.command.KingdomFactionsCommand;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Messages;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Utils;
+import org.bukkit.Location;
 
 public class BackCommand extends KingdomFactionsCommand{
 
 	public BackCommand(String name, String permission, String info, String usage, boolean sub, boolean allowConsole) {
 		super(name, permission, info, usage, sub, allowConsole);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
-		
+		//not in use
 	}
 
 	@Override

@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.eventhandlers;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.faction.Faction;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.event.KingdomSwitchEvent;
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
 public class KingdomSwitchListener implements Listener {
 

@@ -1,11 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.monster;
 
+import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
+import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
-
-import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
-import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 
 public interface IGuard {
 

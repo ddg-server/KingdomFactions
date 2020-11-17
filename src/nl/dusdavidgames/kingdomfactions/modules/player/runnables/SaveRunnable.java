@@ -1,10 +1,9 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.runnables;
 
-import org.bukkit.Bukkit;
-
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.logger.Logger;
+import org.bukkit.Bukkit;
 
 public class SaveRunnable implements Runnable {
 

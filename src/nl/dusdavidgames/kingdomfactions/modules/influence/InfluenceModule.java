@@ -1,7 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.influence;
 
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
@@ -9,6 +7,7 @@ import nl.dusdavidgames.kingdomfactions.modules.influence.event.InfluenceEditEve
 import nl.dusdavidgames.kingdomfactions.modules.influence.runnable.InfluenceRunnable;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.profiles.StatisticsProfile;
 import nl.dusdavidgames.kingdomfactions.modules.utils.enums.ValueEditAction;
+import org.bukkit.Bukkit;
 
 public class InfluenceModule {
 

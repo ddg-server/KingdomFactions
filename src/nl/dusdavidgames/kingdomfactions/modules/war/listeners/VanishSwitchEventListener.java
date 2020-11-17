@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.war.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.kitteh.vanish.event.VanishStatusChangeEvent;
-
 import nl.dusdavidgames.kingdomfactions.modules.player.PlayerModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.war.War;
 import nl.dusdavidgames.kingdomfactions.modules.war.WarModule;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.kitteh.vanish.event.VanishStatusChangeEvent;
 
 public class VanishSwitchEventListener implements Listener{
 	

@@ -1,12 +1,11 @@
 package nl.dusdavidgames.kingdomfactions.modules.shops.shop;
 
-import java.util.ArrayList;
-
+import net.md_5.bungee.api.ChatColor;
+import nl.dusdavidgames.kingdomfactions.modules.empirewand.EmpireWandModule;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import net.md_5.bungee.api.ChatColor;
-import nl.dusdavidgames.kingdomfactions.modules.empirewand.EmpireWandModule;
+import java.util.ArrayList;
 
 public class EmpireWandShopItem extends ShopItem {
 

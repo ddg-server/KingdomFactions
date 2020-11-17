@@ -1,10 +1,10 @@
 package nl.dusdavidgames.kingdomfactions.modules.time;
 
-import java.util.concurrent.TimeUnit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+
+import java.util.concurrent.TimeUnit;
 
 public class TimeHelper {
     private static @Getter @Setter TimeHelper instance;

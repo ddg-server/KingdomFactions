@@ -1,15 +1,14 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.events;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import org.bukkit.event.Cancellable;
-import org.bukkit.event.HandlerList;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.Cancellable;
+import org.bukkit.event.HandlerList;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class ChannelMessageEvent extends ChannelEvent implements Cancellable {
 

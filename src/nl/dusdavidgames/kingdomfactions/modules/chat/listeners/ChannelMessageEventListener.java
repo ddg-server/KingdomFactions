@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.chat.listeners;
 
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
-import org.bukkit.event.Listener;
-
 import nl.dusdavidgames.kingdomfactions.modules.chat.ChatModule;
 import nl.dusdavidgames.kingdomfactions.modules.chat.events.ChannelMessageEvent;
 import nl.dusdavidgames.kingdomfactions.modules.chat.framework.ChatChannel;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
 
 public class ChannelMessageEventListener implements Listener {
 

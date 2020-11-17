@@ -1,18 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.guardian;
 
-import java.util.HashMap;
-
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.craftbukkit.v1_9_R2.entity.CraftEntity;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Monster;
-import org.bukkit.entity.Skeleton;
-import org.bukkit.entity.Zombie;
-import org.bukkit.inventory.EntityEquipment;
-
 import net.md_5.bungee.api.ChatColor;
 import nl.dusdavidgames.kingdomfactions.modules.kingdom.nexus.CapitalNexus;
 import nl.dusdavidgames.kingdomfactions.modules.monster.GuardType;
@@ -20,6 +7,14 @@ import nl.dusdavidgames.kingdomfactions.modules.monster.IGuard;
 import nl.dusdavidgames.kingdomfactions.modules.nexus.INexus;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.online.KingdomFactionsPlayer;
 import nl.dusdavidgames.kingdomfactions.modules.utils.Item;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.craftbukkit.v1_9_R2.entity.CraftEntity;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.*;
+import org.bukkit.inventory.EntityEquipment;
+
+import java.util.HashMap;
 
 public class CapitalGuard implements IGuard {
 

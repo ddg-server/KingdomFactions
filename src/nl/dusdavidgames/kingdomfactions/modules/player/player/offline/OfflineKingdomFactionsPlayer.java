@@ -1,9 +1,5 @@
 package nl.dusdavidgames.kingdomfactions.modules.player.player.offline;
 
-import java.util.UUID;
-
-import org.bukkit.Location;
-
 import lombok.Getter;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.MySQLModule;
 import nl.dusdavidgames.kingdomfactions.modules.database.mysql.databases.PlayerDatabase;
@@ -19,6 +15,9 @@ import nl.dusdavidgames.kingdomfactions.modules.player.deathban.DeathBan;
 import nl.dusdavidgames.kingdomfactions.modules.player.deathban.DeathBanModule;
 import nl.dusdavidgames.kingdomfactions.modules.player.player.IPlayerBase;
 import nl.dusdavidgames.kingdomfactions.modules.time.TimeHelper;
+import org.bukkit.Location;
+
+import java.util.UUID;
 
 
 public class OfflineKingdomFactionsPlayer implements IPlayerBase {

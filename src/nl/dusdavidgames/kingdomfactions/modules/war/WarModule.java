@@ -1,13 +1,12 @@
 package nl.dusdavidgames.kingdomfactions.modules.war;
 
-import org.bukkit.Bukkit;
-
 import lombok.Getter;
 import lombok.Setter;
 import nl.dusdavidgames.kingdomfactions.KingdomFactionsPlugin;
 import nl.dusdavidgames.kingdomfactions.modules.war.command.OorlogCommand;
 import nl.dusdavidgames.kingdomfactions.modules.war.command.WarCommand;
 import nl.dusdavidgames.kingdomfactions.modules.war.runnable.WarRunnable;
+import org.bukkit.Bukkit;
 
 public class WarModule {
 
